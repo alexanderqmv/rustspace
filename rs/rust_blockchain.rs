@@ -1,7 +1,11 @@
 use crypto::digest::Digest;
 use crypto::sha2::Sha256;
 
-
+/* Preview:
+Block #0 [Hash: 86cd09c1a55aabfb11a3056cfabcf46654191974f9a1073776aae8f8c90f1df7][Prev Hash: 0]
+Block #1 [Hash: 6f0831242aecb5ee9a58668c46297c4be348424652f6a74d22aaeb5c916d87d5][Prev Hash: 86cd09c1a55aabfb11a3056cfabcf46654191974f9a1073776aae8f8c90f1df7]
+Block #2 [Hash: b7755f9a55ec5fc2b880cef05a3b22c8cc945ff863c95f5d6d62542f76bebe0f][Prev Hash: 6f0831242aecb5ee9a58668c46297c4be348424652f6a74d22aaeb5c916d87d5]   
+*/
 
 struct Block {
     index: u32,
