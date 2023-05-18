@@ -1,6 +1,8 @@
-# Rust Code Collection
-
-## How to reach us?
+```rs
+fn main() {
+  println!("Rust Code Collection");
+}
+```
 
 
 
