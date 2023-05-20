@@ -1,25 +1,15 @@
-```rs
-#[derive(Debug)]
-struct RustSpace 
-{
-   folders_count: u16,
-   lang: String,
-   name: String,
-   stars: u16,
-}
+## rust-codespace
+Codespace in [**Rust programming language.**](https://www.rust-lang.org/)  
 
-fn main() {
-  println!("Rust Code Collection");
-  let rcc = RustSpace
-  {
-     folders_count: 5,
-     lang: String::from("Rust"),
-     name: String::from("RustSpace"),
-     stars: 1
-  };
-  println!("{rcc:?}");
-}
-```
-
-
-
+[![License](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg?style=flat-square)]()
+[![Version](https://img.shields.io/badge/codespace-rust_by_practice-blue)]()
+[![Discussions](https://img.shields.io/badge/discussions-join-purple)]()
+[![Discussions](https://img.shields.io/badge/language-rust-black)]()
+## About
+Here are collections of codes with different examples you can use and learn!
+## Discover other `Codespaces`
+- [cpp-codespace]()
+- [solidity-codespace]()
+- 
+## Developers
+* @alexanderqmv
