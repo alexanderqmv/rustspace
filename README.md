@@ -10,6 +10,6 @@ Here are collections of codes with different examples you can use and learn!
 ## Discover other `Codespaces`
 - [cpp-codespace]()
 - [solidity-codespace]()
-- 
+
 ## Developers
 * @alexanderqmv
