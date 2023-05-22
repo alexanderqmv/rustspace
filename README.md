@@ -13,3 +13,5 @@ Here are collections of codes with different examples you can use and learn!
 
 ## Developers
 * @alexanderqmv
+
+* @lexndrr
