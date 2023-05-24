@@ -7,19 +7,24 @@ use serde_json::{Result, to_string_pretty};
 #[derive(Debug,Serialize)]
 struct Database {
     id: u32,
-    name: &'static str,
-    surname: &'static str,
-
+    name: String,
+    surname: String,
     age: u8,
-    email: &'static str,
     
-    address: &'static str,
+    email: String,
+    address: String,
 }
 
 
 impl Database {
     
-    fn new(id: u32, name: &'static str, surname: &'static str, age: u8, email: &'static str, address: &'static str) -> Self {
+    fn new(
+        id: u32,
+        name: String,
+        surname: String,
+        age: u8, 
+        email: String, 
+        address: String) -> Self {
         Self {
             id,
             name,
@@ -61,11 +66,11 @@ impl Database {
 fn main() {   
     let mut db = Database::new(
         1,
-        "John",
-        "Doe",
+        String::from("John"),
+        String::from("Doe"),
         39,
-        "johndoe@gmail.com",
-        "01 The Builder Ricky street");
+        String::from("johndoe@gmail.com"),
+        String::from("01 The Builder Ricky street"));
   
     let ser = match db.to_json(&db){
         Ok(t) => t,
