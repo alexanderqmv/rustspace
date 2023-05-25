@@ -15,3 +15,4 @@ Here are collections of codes with different examples you can use and learn!
 * @alexanderqmv
 
 * @lexndrr
+## Thank you for supporting!
