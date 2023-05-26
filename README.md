@@ -5,6 +5,8 @@ Codespace in [**Rust programming language.**](https://www.rust-lang.org/)
 [![Version](https://img.shields.io/badge/codespace-rust_by_practice-blue)]()
 [![Discussions](https://img.shields.io/badge/discussions-join-purple)]()
 [![Discussions](https://img.shields.io/badge/language-rust-black)]()
+## Discover Libs:
+[threadpool-simple](https://crates.io/crates/threadpool-simple)
 ## About
 Here are collections of codes with different examples you can use and learn!
 ## Discover other `Codespaces`
