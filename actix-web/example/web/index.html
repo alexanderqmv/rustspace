@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Actix Website</title>
+</head>
+<body>
+    <h1>
+        <div style="display: flex; justify-content: center;"> <a href="https://actix.rs">Actix.rs</a>
+
+        </div>
+
+
+    </h1>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <button class="tapButton" style="padding: 10px 20px; font-size: 18px; font-weight: bold; color: #fff; background-color: #4CAF50; border: none; border-radius: 4px; cursor: pointer; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+            YouTube
+        </button>
+        <button class="tapButton1" style="padding: 10px 20px; font-size: 18px; font-weight: bold; color: #fff; background-color: #4CAF50; border: none; border-radius: 4px; cursor: pointer; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+            Google
+        </button>
+        <button class="tapButton2" style="padding: 10px 20px; font-size: 18px; font-weight: bold; color: #fff; background-color: #4CAF50; border: none; border-radius: 4px; cursor: pointer; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+            Yandex
+        </button>
+        <button class="tapButton3" style="padding: 10px 20px; font-size: 18px; font-weight: bold; color: #fff; background-color: #4CAF50; border: none; border-radius: 4px; cursor: pointer; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+            CoinMarketCap
+        </button>
+        <button class="tapButton4" style="padding: 10px 20px; font-size: 18px; font-weight: bold; color: #fff; background-color: #4CAF50; border: none; border-radius: 4px; cursor: pointer; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+            Binance
+        </button>
+    </div>
+   <div style="justify-content: center; display: flex;">
+        <button class="tapButton5" style="padding: 10px 20px; font-size: 18px; font-weight: bold; color: #fff; background-color: #4CAF50; border: none; border-radius: 4px; cursor: pointer; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);">
+        ChatGPT (NEW)
+        </button>
+   </div>
+    <script>
+        const tapButtons = document.getElementsByClassName('tapButton');
+        Array.from(tapButtons).forEach(button => {
+            button.addEventListener('click', () => {
+                window.location.href = 'http://youtube.com';
+            });
+        });
+    </script>
+    <script>
+        const tapButtonz = document.getElementsByClassName('tapButton1');
+        Array.from(tapButtonz).forEach(button => {
+            button.addEventListener('click', () => {
+                window.location.href = 'http://google.com';
+            });
+        });
+    </script>
+    <script>
+        const tapButtonzz = document.getElementsByClassName('tapButton2');
+        Array.from(tapButtonzz).forEach(button => {
+            button.addEventListener('click', () => {
+                window.location.href = 'http://yandex.ru';
+            });
+        });
+    </script>
+    <script>
+        const tapButtonzzz = document.getElementsByClassName('tapButton3');
+        Array.from(tapButtonzzz).forEach(button => {
+            button.addEventListener('click', () => {
+                window.location.href = 'http://coinmarketcap.com';
+            });
+        });
+    </script>
+    <script>
+        const tapButtonzzzz = document.getElementsByClassName('tapButton4');
+        Array.from(tapButtonzzzz).forEach(button => {
+            button.addEventListener('click', () => {
+                window.location.href = 'http://binance.com';
+            });
+        });
+    </script>
+    <script>
+        const tapButtonzzzzz = document.getElementsByClassName('tapButton5');
+        Array.from(tapButtonzzzzz).forEach(button => {
+            button.addEventListener('click', () => {
+                window.location.href = 'http://chat.openai.com';
+            });
+        });
+    </script>
+    <footer style="display:flex; justify-content: center;"><b>(C) Actix-Web v4.13.0</b></footer>
+</body>
+</html>
